@@ -1,4 +1,7 @@
 {
   "login": "Логин",
-  "enter": "Войти"
+  "sign_in": "Войти",
+  "email_address": "Эмейл адресс",
+  "password": "Пароль",
+  "dont_have_an_account": "Ещё не зарегестрированы?"
 }
