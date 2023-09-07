@@ -21,6 +21,7 @@ module.exports = {
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-uses-react': 'off',
+    'react/display-name': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,
