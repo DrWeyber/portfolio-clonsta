@@ -6,11 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: [
-    'react',
-    '@typescript-eslint',
-    'prettier',
-  ],
+  plugins: ['react', '@typescript-eslint', 'prettier'],
   env: {
     browser: true,
     es6: true,
@@ -23,6 +19,8 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,
