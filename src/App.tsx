@@ -3,7 +3,7 @@ import { CssBaseline } from '@mui/material';
 
 import './index.css';
 
-function App() {
+export function App() {
   return (
     <>
       <CssBaseline />
@@ -11,5 +11,3 @@ function App() {
     </>
   );
 }
-
-export default App;
